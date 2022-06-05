@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Yekan';
+    src:    url('Yekan-Font-3.0/Yekan.eot'); /* IE9 Compat Modes */
+    src:    url('Yekan-Font-3.0/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('Yekan-Font-3.0/Yekan.woff2') format('woff2'), /* Modern Browsers */
+            url('Yekan-Font-3.0/Yekan.woff') format('woff'), /* Modern Browsers */
+            url('Yekan-Font-3.0/Yekan.otf') format('opentype'), /* Open Type Font */   
+            url('Yekan-Font-3.0/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    font-display: auto;
+}
 .btn-outline-success {
     color: white;
     border-color: #f8c933;
@@ -45,4 +58,54 @@
     border-radius: 4px;
     border-bottom-style: solid;
     border-bottom-color: #ffc107;
+}
+body {
+    margin: 0;
+    font-family: 'Yekan';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.border-me {
+    border-right: 9px solid;
+    border-bottom: 9px solid;
+    border-color: #9E2064;
+    border-radius: 0px 0px 55px 0px;
+    z-index: -1;
+}
+.position-me {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    height: 55%;
+}
+.pos-vec {
+    position: relative;
+    top: 160.78px;
+
+
+}
+.example1 {
+    background-color: #FCF6FF;
+    background-image: url(img/Vector1.png), url(img/Vector2.png);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.border-div {
+    background-color: white;
+    border-style: 0.5px solid;
+    border-color: #9E2064;
+    border-radius: 16px;
+    box-shadow: 0px 0px 23px rgba(158, 32, 100, 0.16);
+    width: 245px;
+    height: 281px;  
 }
