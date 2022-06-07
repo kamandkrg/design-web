@@ -109,3 +109,17 @@ body {
     width: 285px;
     height: 310px;  
 }
+.div-partision {
+    background-color: rgba(158, 32, 100, 0.2);
+    border-radius: 20px;
+    border-color: #9E206433;
+    width: 214.63px;
+    height: 125.71px; 
+}
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 252.333px;
+}
+.gy-4 {
+    --bs-gutter-y: -12.5rem;
+}
