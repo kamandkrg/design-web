@@ -123,3 +123,12 @@ body {
 .gy-4 {
     --bs-gutter-y: -12.5rem;
 }
+
+.border-level {
+    background-color: white;
+    border: 2px solid #FFC516;
+    border-radius: 8px;
+    width: 94px;
+    height: 43px;
+}
+
